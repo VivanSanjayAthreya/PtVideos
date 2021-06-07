@@ -9,7 +9,7 @@
     var pass2="Sumanth@VSA"
     
     username=prompt('Please enter your username',''); 
-    if(username==user1)   
+    if(username==user1||username==user2)   
         password=prompt('Please enter your password to view this page!','');
     
     else
@@ -18,7 +18,7 @@
         window.location="invalid.html"
         }
 
-    if (password==pass1&&username==user1||password==pass2&&username==user2)
+    if ((password==pass1&&username==user1)||(password==pass2&&username==user2))
       alert('Password Correct! Click OK to enter!');
     else
        {

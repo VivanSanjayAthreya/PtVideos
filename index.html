@@ -6,10 +6,20 @@
     var pass1="VSA@VSA";
     var user1='VSA';
     var user2='Sumanth';
-    var pass2="Sumanth@VSA"
+    var pass2="Sumanth@VSA";
+    var user3='Jeevan';
+    var pass3='Jeevan@VSA';
+    var user4='Farhan';
+    var pass4='Farhan@VSA';
+    var user5='Alloyd';
+    var pass5='Alloyd@VSA';
+    var user6='Madhu';
+    var pass6='Madhu@VSA';
+    var user7='Shravan';
+    var pass7='Shravan@VSA';
     
     username=prompt('Please enter your username',''); 
-    if(username==user1||username==user2)   
+    if(username==user1||username==user2||username==user3||username==user4||username==user5||username==user6||username==user7)   
         password=prompt('Please enter your password to view this page!','');
     
     else
@@ -18,11 +28,11 @@
         window.location="invalid.html"
         }
 
-    if ((password==pass1&&username==user1)||(password==pass2&&username==user2))
+    if ((password==pass1&&username==user1)||(password==pass2&&username==user2)||(password==pass3&&username==user3)||(password==pass4&&username==user4)||(password==pass5&&username==user5)||(password==pass6&&username==user6)||(password==pass7&&username==user7))
       alert('Password Correct! Click OK to enter!');
     else
        {
-        alert('Password Wrong!');
+        alert('Usename or Password is Wrong!');
         window.location="invalid.html"
         }
     
